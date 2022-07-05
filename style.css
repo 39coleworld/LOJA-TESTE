@@ -1,0 +1,514 @@
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* MENU */
+#header {
+    background-color: #f20f8c;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    position: fixed;
+    z-index: 100;
+
+    background-color: #F20F8C;
+    color: #ffffff;
+    height: 120px;
+    width: 100vw;
+}
+
+.logo {
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 50px;
+    margin: 30px 10px;
+}
+
+.slogan {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.grid {
+    color: #ffffff;
+    display: inline-flex;
+    margin: 80px 20px;
+}
+
+.title a {
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+    margin: 0 5px;
+}
+
+.title a:hover {
+    color: #000000;
+}
+
+.title a:active {
+    color: #ffffff;
+}
+
+
+/* CAROUSEL INÍCIO */
+#home {
+    background-color: #ffffff;
+    padding-top: 130px;
+
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* CONTATO */
+#contact {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.main-contact {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 34px;
+    border-top: 2px solid #F88CD8;
+    border-bottom: 2px solid #F88CD8;
+}
+
+.contact-home {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.button-contact {
+    width: 269px;
+    height: 62px;
+    background: #F20F8C;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.24));
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.button-contact a {
+    color: #FFFFFF;
+}
+
+.button-contact:hover {
+    background: #D90B6B;
+}
+
+.button-contact:active {
+    opacity: 0.4;
+}
+
+.img-aside {
+    height: 480px;
+    width: 400px;
+    margin: 8px 0;
+}
+
+
+/* CAROUSEL 2 */
+#catalogo {
+    background-color: #ffffff;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.slides {
+    padding-top: 130px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+}
+
+.slides h3 {
+    margin: 20px 0;
+}
+
+.button-purchase {
+    width: 150px;
+    height: 32px;
+    background: #F20F8C;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.24));
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin: 18px 0;
+}
+
+.button-purchase a {
+    color: #FFFFFF;
+}
+
+.button-purchase:hover {
+    background: #D90B6B;
+}
+
+.button-purchase:active {
+    opacity: 0.4;
+}
+
+
+/* ABOUT */
+#about {
+    background-color: #FFFFFF;
+}
+
+.section-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 34px;
+    padding-top: 130px;
+}
+
+.border-pink-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+    border-top: 2px solid #F88CD8;
+    border-bottom: 2px solid #F88CD8;
+}
+
+.section-about p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+
+/* ABOUT - FOOTER */
+.container-footer {
+    background: #F20F8C;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+    color: #FFFFFF;
+    display: inline-flex;
+    justify-content: space-between;
+
+    margin-top: 100px;
+}
+
+.brand {
+    margin: 40px 10px;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 50px;
+}
+
+.social-footer {
+    margin-top: 80px;
+    margin-right: 30px;
+}
+
+
+
+
+/*RESPONSIVE TESTE*/
+@media screen and (max-width: 820px) {
+
+    /*MENU*/
+    .grid {
+        display: none;
+    }
+
+    .container-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*HOME*/
+    #contact {
+        padding-top: 50px;
+    }
+
+    .main-contact {
+        font-size: 28px;
+    }
+
+    .button-contact {
+        width: 250px;
+        height: 52px;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .contact-home h2 {
+        margin: 0 5px;
+    }
+
+    .contact-home p {
+        margin: 0 5px;
+    }
+
+    .img-aside {
+        height: 340px;
+        width: 280px;
+        margin: 8px 5px;
+    }
+
+    /*ABOUT*/
+    .slides {
+        font-size: 18px;
+        padding-top: 50px;
+    }
+
+    .section-about {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .section-about h2 {
+        margin: 10px 0;
+    }
+
+    .section-about p {
+        font-size: 20px;
+        margin: 10px 5px;
+    }
+
+    .button-purchase {
+        width: 140px;
+        height: 32px;
+        cursor: pointer;
+        font-size: 18px;
+        margin: 18px 0;
+    }
+
+    /*FOOTER*/
+    .container-footer {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    .brand {
+        margin: 40px 10px;
+    }
+
+    .logo-footer {
+        font-size: 50px;
+    }
+
+    .social-footer {
+        margin-top: 80px;
+        margin-right: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 620px) {
+
+    /*HOME*/
+    #contact {
+        padding-top: 60px;
+    }
+
+    .main-contact {
+        font-size: 24px;
+    }
+
+    .button-contact {
+        width: 220px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .contact-home h2 {
+        margin: 0 5px;
+    }
+
+    .contact-home p {
+        margin: 0 5px;
+    }
+
+    .img-aside {
+        height: 340px;
+        width: 280px;
+        margin: 8px 5px;
+    }
+
+
+    /*ABOUT*/
+    .slides {
+        font-size: 16px;
+        padding-top: 60px;
+    }
+
+    .slides h3 {
+        margin: 18px 0;
+    }
+
+    .section-about {
+        font-size: 28px;
+        padding-top: 50px;
+    }
+
+    .section-about h2 {
+        margin: 10px 0;
+    }
+
+    .section-about p {
+        font-size: 18px;
+        margin: 10px 5px;
+    }
+
+    .button-purchase {
+        width: 130px;
+        height: 30px;
+        font-size: 14px;
+        margin: 18px 0;
+    }
+
+
+    /*FOOTER*/
+    .container-footer {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .brand {
+        margin: 40px 10px;
+    }
+
+    .logo-footer {
+        font-size: 50px;
+    }
+
+    .social-footer {
+        margin-top: 80px;
+        margin-right: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 530px) {
+
+    /*HOME*/
+    .main-contact {
+        font-size: 18px;
+    }
+
+    .img-aside {
+        height: 256px;
+        width: 230px;
+        margin: 8px 5px;
+    }
+
+    .button-contact {
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    /*HOME*/
+    .main-contact {
+        font-size: 18px;
+    }
+
+    .img-aside {
+        height: 246px;
+        width: 230px;
+        margin: 8px 5px;
+    }
+
+    .button-contact {
+        width: 140px;
+        height: 30px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    /*HOME*/
+    .main-contact {
+        font-size: 14px;
+    }
+
+    .img-aside {
+        height: 246px;
+        width: 230px;
+        margin: 8px 5px;
+    }
+
+    .button-contact {
+        width: 130px;
+        height: 30px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    /*ABOUT*/
+    .slides {
+        font-size: 14px;
+        padding-top: 60px;
+    }
+
+    .slides h3 {
+        margin: 16px 0;
+    }
+
+    .button-purchase {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        margin: 18px 0;
+    }
+}
