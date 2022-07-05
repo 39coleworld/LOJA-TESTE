@@ -289,9 +289,15 @@ html {
         margin: 0 5px;
     }
 
-    .img-aside {
+    /* .img-aside {
         height: 340px;
         width: 280px;
+        margin: 8px 5px;
+    } */
+
+    .img-aside {
+        height: 100%;
+        width: 50%;
         margin: 8px 5px;
     }
 
@@ -371,9 +377,15 @@ html {
         margin: 0 5px;
     }
 
-    .img-aside {
+    /* .img-aside {
         height: 340px;
         width: 280px;
+        margin: 8px 5px;
+    } */
+
+    .img-aside {
+        height: 100%;
+        width: 50%;
         margin: 8px 5px;
     }
 
@@ -440,9 +452,15 @@ html {
         font-size: 18px;
     }
 
-    .img-aside {
+    /* .img-aside {
         height: 256px;
         width: 230px;
+        margin: 8px 5px;
+    } */
+
+    .img-aside {
+        height: 100%;
+        width: 50%;
         margin: 8px 5px;
     }
 
@@ -461,9 +479,15 @@ html {
         font-size: 18px;
     }
 
-    .img-aside {
+    /* .img-aside {
         height: 246px;
         width: 230px;
+        margin: 8px 5px;
+    } */
+
+    .img-aside {
+        height: 100%;
+        width: 50%;
         margin: 8px 5px;
     }
 
@@ -482,9 +506,15 @@ html {
         font-size: 14px;
     }
 
-    .img-aside {
+    /* .img-aside {
         height: 246px;
         width: 230px;
+        margin: 8px 5px;
+    } */
+
+    .img-aside {
+        height: 100%;
+        width: 50%;
         margin: 8px 5px;
     }
 
